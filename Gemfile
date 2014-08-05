@@ -30,14 +30,17 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 group :development do
-  gem "rspec"
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
 end
 # cucumber y capybara
 group :test do
   gem "database_cleaner"
-  gem "cucumber-rails"
+  gem "cucumber-rails", :require => false
   gem "capybara"
-  gem "rspec"
+  gem 'faker'
+  gem 'launchy'
+  gem 'guard-rspec'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

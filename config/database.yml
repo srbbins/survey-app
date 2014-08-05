@@ -1,7 +1,15 @@
-development:
+production:
   adapter: postgresql
   encoding: unicode
   database: survey
+  pool: 20
+  username: survey
+  password: survey
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: surve_dev
   pool: 20
   username: survey
   password: survey
