@@ -1,2 +1,3 @@
 class SurveyController < ApplicationController
+
 end

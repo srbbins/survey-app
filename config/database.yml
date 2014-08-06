@@ -9,7 +9,7 @@ production:
 development:
   adapter: postgresql
   encoding: unicode
-  database: surve_dev
+  database: survey_dev
   pool: 20
   username: survey
   password: survey
